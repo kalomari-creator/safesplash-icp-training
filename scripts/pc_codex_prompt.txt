@@ -1,0 +1,22 @@
+You are in the existing SafeSplash/SwimLabs ICP Training project on this PC.
+
+Update this PC from the team GitHub repository.
+
+Repo:
+https://github.com/kalomari-creator/safesplash-icp-training
+
+Rules:
+- Use this PC's current Windows user Desktop path.
+- Do not assume the folder is under Call Center 2.
+- Look first for `%USERPROFILE%\Desktop\Project\ICP Training`.
+- If not found, search the Desktop for `ICP Training`.
+- If still not found, stop and ask where the project folder is.
+- Do not perform live customer/system actions.
+- After update, read AGENTS.md, CALL_CENTER_PLAYBOOK.md, and PROJECT_KNOWLEDGE_REFERENCE.md.
+- Ask who is currently using this PC before any live client work.
+
+Report:
+- Repo URL used
+- Files updated
+- Target ICP Training folder
+- Any blocker
