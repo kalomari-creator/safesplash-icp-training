@@ -16,10 +16,12 @@ This repository is team training material. It is not a Khaled personal bot and i
 
 ## Team PC Setup
 
+Team PCs should treat this repository as pull-only. They should clone, pull, and run the update script, but they should not commit, push, or store local customer data in this repo.
+
 On each Windows PC, open Codex in the existing `ICP Training` project and ask it:
 
 ```text
-Clone or update the SafeSplash/SwimLabs ICP Training GitHub repo into this PC's Desktop ICP Training project. Use the logged-in Windows user's Desktop path, not a hardcoded Call Center user path. Read AGENTS.md first. Do not perform live customer/system actions.
+Clone or pull the SafeSplash/SwimLabs ICP Training GitHub repo into Downloads, then run scripts/update_icp_training.ps1 to update this PC's Desktop ICP Training project. Treat the repo as pull-only on this PC. Use the logged-in Windows user's Desktop path, not a hardcoded Call Center user path. Read AGENTS.md first. Do not perform live customer/system actions.
 ```
 
 If running manually in PowerShell:
@@ -30,6 +32,16 @@ git clone https://github.com/kalomari-creator/safesplash-icp-training.git icp-tr
 cd icp-training-team
 powershell -ExecutionPolicy Bypass -File .\scripts\update_icp_training.ps1
 ```
+
+## Maintainer Setup
+
+Khaled's Mac at `/Users/khaledalomari/Documents/Agents/icp-training-team` is the maintainer copy. It is configured to pull and push through:
+
+```text
+https://github.com/kalomari-creator/safesplash-icp-training.git
+```
+
+Use this copy to update the shared files over time, then commit and push to `main`. Team PCs should pull those changes.
 
 ## Folder Rule
 

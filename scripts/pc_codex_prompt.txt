@@ -6,6 +6,8 @@ Repo:
 https://github.com/kalomari-creator/safesplash-icp-training
 
 Rules:
+- Treat this repo as pull-only on team PCs.
+- Do not commit or push from team PCs unless Khaled explicitly changes this.
 - Use this PC's current Windows user Desktop path.
 - Do not assume the folder is under Call Center 2.
 - Look first for `%USERPROFILE%\Desktop\Project\ICP Training`.
